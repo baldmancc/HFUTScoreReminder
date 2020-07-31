@@ -2,7 +2,7 @@ from time import sleep
 from requests_html import HTMLSession
 
 url = r'http://jxglstu.hfut.edu.cn/eams5-student/for-std/grade/sheet/info/138052?semester='
-cookie_str = r'SESSION=87ee7c05-6dd0-43dd-931b-a6e644678f16; SRVID=s107'
+cookie_str = r'your cookies'
 
 def str2cookies(str):
     cookies = {}
